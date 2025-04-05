@@ -1,0 +1,135 @@
+body{
+    background-color: #ECF0F3;
+}
+
+#box1{
+    height: 100px;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 40%;
+    font-size: 36px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: hsl(219, 32%, 55%);
+    letter-spacing: 1.2px;
+}
+
+#form{
+   margin-left: 40%;
+   margin-top: 16.5%;
+   position: absolute ;
+   
+ 
+
+   
+}
+
+#username{
+    font-family: "Montserrat";
+    height: 25px;
+    width: 260px;
+    background-color: #ECF0F3;
+    border: 7.5px solid #ECF0F3;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightgrey, -5px -5px 10px #ffffff, inset 0 4px 6px rgba(0, 0, 0, 0.08);
+}
+
+#password{
+    font-family: "Montserrat";
+    height: 25px;
+    width: 260px;
+    background-color: #ECF0F3;
+    border: 7.5px solid #ECF0F3;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightgrey, -5px -5px 10px #ffffff, inset 0 4px 6px rgba(0, 0, 0, 0.08);
+
+}
+
+#forgot{
+    left: 41%;
+    top: 52.5%;
+    font-family: "Montserrat";
+    position: fixed;
+    font-size: 13px;
+    font-weight: bold;
+    color: hsl(219, 32%, 25%);
+    cursor: pointer;
+    
+}
+
+#login{
+    left: 40.6%;
+    top: 57%;
+    font-family: "Montserrat";
+    position: fixed;
+    width: 274px;
+    height: 48px;
+    font-weight: bold;
+    background-color: #ECF0F3;
+    border: 6px solid #ECF0F3;
+    border-radius: 13px;
+    box-shadow: 5px 5px 5px lightgrey, -5px -5px 9px #ffffff;
+    color: hsl(219, 32%, 55%);
+    font-size: larger;
+    letter-spacing: 1.5px;
+}
+
+#login:hover{
+    background-color: hsl(206, 23%, 95%);
+    cursor: pointer;
+}
+
+#login:active{
+    background-color: hsl(206, 23%, 99%);
+}
+
+#acc{
+    left: 41%;
+    top: 66.8%;
+    font-family: "Montserrat";
+    position: fixed;
+    font-size: 13px;
+    font-weight: bold;
+    color: hsl(219, 32%, 25%);
+    cursor: pointer;
+}
+
+input{
+    margin-bottom: 12px;
+    border-radius: 13px;
+    
+}
+
+input::placeholder{
+    color: grey;
+    font-weight: bold;
+    padding-left: 3px;
+    letter-spacing: 0.6px;
+    
+}
+
+#bigbox{
+    background-color: transparent;
+    height: 430px;
+    width: 430px;
+    position: absolute;
+    left: 34.55%;
+    border: 10px solid #ECF0F3;
+    top: 15.8%;
+    border-radius: 40px;
+    box-shadow: inset 4px 4px 13px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+}
+
+#smallbox{
+    background-color: transparent;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    left: 37.5%;
+    border: 10px solid #ECF0F3;
+    top: 22%;
+    border-radius: 25px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3), -5px -5px 9px #ffffff ;
+    pointer-events: none;
+}
